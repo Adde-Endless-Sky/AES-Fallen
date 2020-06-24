@@ -1,0 +1,27 @@
+fleet a-3_lexel
+	government "Unknown "
+	personality heroic
+	variant
+		"A-3 Lexel"
+fleet b-10_warden
+	government "Unknown "
+	personality heroic
+	variant
+		"B-10 Warden"
+fleet fallen
+	government Fallen
+	personality
+		coward
+		disables
+		harvests
+		heroic
+		mining
+		mute
+	variant 4
+		"A-3 Lexel" 4
+		"B-10 Warden"
+	variant 3
+		"A-3 Lexel" 7
+	variant
+		"A-3 Lexel" 11
+		"B-10 Warden" 2

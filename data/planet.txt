@@ -1,0 +1,23 @@
+planet "A-3 Lexel"
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet a-3_lexel
+planet "B-10 Warden"
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet b-10_warden
+planet "Relic Station"
+	description `Everything here is enigmatic and frankly alien. The passageways are incomprehensibly large and the walkways are guided by unbroken blinding lights that follow up the edges of the doorways.`
+	description `Mazes of endless halls and slated walls seem designed to disorient visitors. It would be easy to lose yourself here, both your person and your mind.`
+	landscape land/space6
+planet Fallen
+	bribe 0
+	description ``
+	landscape landscape/station6
+	outfitter fallen
+	shipyard fallen
+	spaceport ``
