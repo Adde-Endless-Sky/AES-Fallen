@@ -11,6 +11,7 @@ planet "B-10 Warden"
 		threshold 0
 		fleet b-10_warden
 planet "Relic Station"
+	bribe 0
 	description `Everything here is enigmatic and frankly alien. The passageways are incomprehensibly large and the walkways are guided by unbroken blinding lights that follow up the edges of the doorways.`
 	description `Mazes of endless halls and slated walls seem designed to disorient visitors. It would be easy to lose yourself here, both your person and your mind.`
 	landscape land/space6
