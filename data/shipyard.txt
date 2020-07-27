@@ -1,4 +1,0 @@
-shipyard 'fallen'
-	"A-3 Lexel"
-	"A-60 Olisivant"
-	"B-10 Warden"

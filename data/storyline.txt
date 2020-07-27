@@ -1,3 +1,6 @@
+-----------------
+# FIRST CONTACT #
+-----------------
 mission 'fallen activation'
 	invisible
 	landing
@@ -17,3 +20,18 @@ mission 'fallen activation'
 				launch
 	on accept
 		event "fallen incursion"
+
+event 'fallen incursion'
+	system "Alkaid"
+		add fleet "fallen" 24000
+	system "Aurigae"
+		government "Fallen"
+		add fleet "fallen" 14000
+	system "Men"
+		add fleet "fallen" 28000
+	system "Serpentis"
+		add fleet "fallen" 46000
+	system "Zeta Centauri"
+		add fleet "fallen" 22000
+	planet "Relic Station"
+		add spaceport `The fluid motion of the automated shipyards arms working tirelessly to finish construction on the latest drone is worrisome. The suspended walkways looming over the drone construction bay apparently doesn't need railing, at least the bright lines of light on the edges of the walkways are a warning.`

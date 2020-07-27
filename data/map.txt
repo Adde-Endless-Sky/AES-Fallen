@@ -1,3 +1,7 @@
+-------------
+# INHABITED #
+-------------
+
 system 'Aurigae'
 	pos -905 298
 	government "Uninhabited"
@@ -39,6 +43,43 @@ system 'Aurigae'
 			sprite "planet/rock3"
 			distance 360
 			period 41
+
+-----------
+# PLANETS #
+-----------
+
+planet "Relic Station"
+	landscape "land/space6"
+	description `Everything here is enigmatic and frankly alien. The passageways are incomprehensibly large and the walkways are guided by unbroken blinding lights that follow up the edges of the doorways.`
+	description `Mazes of endless halls and slated walls seem designed to disorient visitors. It would be easy to lose yourself here, both your person and your mind.`
+	bribe 0
+
+planet Fallen
+	landscape landscape/station6
+	description ``
+	spaceport ``
+	outfitter fallen
+	shipyard fallen
+	bribe 0
+
+planet "A-3 Lexel"
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet "a-3 lexel"
+
+planet "B-10 Warden"
+	bribe 0
+	government "Unknown "
+	tribute 1
+		threshold 0
+		fleet "b-10 warden"
+
+---------------
+# UNINHABITED #
+---------------
+
 system 'Serpentis'
 	pos -959 328
 	government "Uninhabited"
@@ -80,3 +121,22 @@ system 'Serpentis'
 			sprite "planet/rock7"
 			distance 504
 			period 68
+
+-------------
+# OVERRIDES #
+-------------
+
+system "Omnis"
+	add object "Fallen"
+		sprite "sprite/black-hole-core-land"
+		distance 4500
+		object
+			sprite "sprite/wisp_red"
+	add object "A-3 Lexel"
+		sprite "ship/lexel"
+		distance 4500
+		offset -8
+	add object "B-10 Warden"
+		sprite "ship/warden"
+		distance 4500
+		offset -12
