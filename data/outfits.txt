@@ -213,15 +213,15 @@ outfit 'Thrust Module'
 	mass 2
 	"outfit space" -2
 	"engine capacity" -2
+	turn 38.141
+	"turning energy" .072
+	"turning heat" .190
 	thrust 1.1
 	"thrusting energy" .105
 	"thrusting heat" .229
 	"reverse thrust" 0.8
 	"reverse thrust energy" .081
 	"reverse thrust heat" .244
-	turn 38.141
-	"turning energy" .072
-	"turning heat" .190
 	"module capacity" -1
 
 outfit 'Alpha Hermes Frame'
