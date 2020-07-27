@@ -1,4 +1,4 @@
-outfitter experimental
+outfitter "experimental"
 	"Alpha Hermes Frame"
 	"B-1 Achilles Frame"
 	"Balefire Lance"

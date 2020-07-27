@@ -1,8 +1,8 @@
-mission fallen_activation
+mission 'fallen activation'
 	invisible
 	landing
-	on accept
-		event fallen_incursion
+	source
+		planet "Relic Station"
 	on offer
 		conversation
 			`Upon arrival to the space station you think back on your preliminary scans of the entire station, no signatures of life, must be a derelict station. The metals that the station is made up of is like nothing you've seen before.`
@@ -15,5 +15,5 @@ mission fallen_activation
 			`	You cautiously check each doorway and it turns out that they conjoin behind the console room and leads to a hangar bay of sorts, multiple large and hefty mechanical arms are busily working to move around massive plates of scrap metal. You seem to have activated what seems to be a ship manufacturing station.`
 			`	With nothing left to do here you decide it would be best to depart, else you might activate some other unsavory section of this strange alien station.`
 				launch
-	source
-		planet "Relic Station"
+	on accept
+		event "fallen incursion"

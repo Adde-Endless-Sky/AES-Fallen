@@ -1,32 +1,32 @@
-effect balefire_lance_hit
-	"random angle" 2
-	"random spin" 1
-	"random velocity" 1
-	"velocity scale" -.007
-	lifetime 5
-	sprite sprite/balefire_lance_hit
+effect 'balefire lance hit'
+	sprite "sprite/balefire_lance_hit"
 		"frame rate" 1.75
 		"no repeat"
-effect balefire_projector_hit
+	lifetime 5
+	"velocity scale" -.007
+	"random velocity" 1
 	"random angle" 2
-	"velocity scale" -.005
-	lifetime 20
-	sprite sprite/balefire_projector_hit
+	"random spin" 1
+effect 'balefire projector hit'
+	sprite "sprite/balefire_projector_hit"
 		"frame rate" 3
 		"no repeat"
-effect calypso_weapon_hit
+	lifetime 20
+	"velocity scale" -.005
+	"random angle" 2
+effect 'calypso weapon hit'
+	sprite "sprite/calypso_weapon_hit"
+		"frame rate" 3.5
+		"random start frame"
+		"no repeat"
+	sound "sunbeam"
+	lifetime 5
 	"velocity scale" .007
 	"random spin" 12
-	lifetime 5
-	sound sunbeam
-	sprite sprite/calypso_weapon_hit
-		"frame rate" 3.5
-		"no repeat"
-		"random start frame"
-effect denial_turret_hit
-	"velocity scale" 1
-	lifetime 11
-	sound grab-strike
-	sprite sprite/denial_turret_hit
+effect 'denial turret hit'
+	sprite "sprite/denial_turret_hit"
 		"frame rate" 23
 		"no repeat"
+	sound "grab-strike"
+	lifetime 11
+	"velocity scale" 1

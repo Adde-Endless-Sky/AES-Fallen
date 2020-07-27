@@ -1,14 +1,16 @@
-fleet a-3_lexel
+fleet 'a-3 lexel'
 	government "Unknown "
-	personality heroic
+	personality
+		heroic
 	variant
 		"A-3 Lexel"
-fleet b-10_warden
+fleet 'b-10 warden'
 	government "Unknown "
-	personality heroic
+	personality
+		heroic
 	variant
 		"B-10 Warden"
-fleet fallen
+fleet 'fallen'
 	government Fallen
 	personality
 		coward

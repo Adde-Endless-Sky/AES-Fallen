@@ -1,4 +1,4 @@
-outfitter fallen
+outfitter 'fallen'
 	"Alpha Hermes Frame"
 	"B-1 Achilles Frame"
 	"Balefire Lance"

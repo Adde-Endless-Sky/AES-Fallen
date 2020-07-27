@@ -1,14 +1,14 @@
-system Omnis
-	add object Fallen
+system "Omnis"
+	add object "Fallen"
+		sprite "sprite/black-hole-core-land"
 		distance 4500
-		sprite sprite/black-hole-core-land
 		object
-			sprite sprite/wisp_red
+			sprite "sprite/wisp_red"
 	add object "A-3 Lexel"
+		sprite "ship/lexel"
 		distance 4500
 		offset -8
-		sprite ship/lexel
 	add object "B-10 Warden"
+		sprite "ship/warden"
 		distance 4500
 		offset -12
-		sprite ship/warden

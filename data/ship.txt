@@ -1,35 +1,28 @@
-ship "A-3 Lexel"
+ship 'A-3 Lexel'
+	sprite "ship/lexel"
+	thumbnail "thumbnail/lexel"
 	attributes
-		"cargo space" 18
-		"engine capacity" 75
-		"fuel capacity" 400
+		category "Interceptor"
+		cost 900000
+		shields 2550
+		hull 1100
+		automaton 1
+		mass 165
+		drag 2.5
 		"heat dissipation" .4
-		"jump drive" 1
-		"jump speed" 1
+		"fuel capacity" 400
+		"cargo space" 18
 		"outfit space" 160
 		"weapon capacity" 40
-		automaton 1
-		category Interceptor
-		cost 900000
-		drag 2.5
-		hull 1100
+		"engine capacity" 75
 		hyperdrive 1
-		mass 165
-		shields 2550
+		"jump drive" 1
+		"jump speed" 1
 		weapon
 			"blast radius" 50
-			"hit force" 100
-			"hull damage" 160
 			"shield damage" 600
-	engine -13 37 .8
-	engine -16 33 .4
-	engine 13 37 .8
-	engine 16 33 .4
-	explode "medium explosion" 10
-	explode "small explosion" 10
-	explode "tiny explosion" 20
-	gun -7 -50 "Balefire Projector"
-	gun 7 -50 "Balefire Projector"
+			"hull damage" 160
+			"hit force" 100
 	outfits
 		"Alpha Hermes Frame"
 		"Balefire Projector" 2	
@@ -38,31 +31,35 @@ ship "A-3 Lexel"
 		"Shield Modulator" 13
 		"Storage Cell" 8
 		"Thrust Module" 8
-	sprite ship/lexel
-	thumbnail thumbnail/lexel
-ship "A-60 Olisivant"
+	engine -16 33 .4
+	engine -13 37 .8
+	engine 13 37 .8
+	engine 16 33 .4
+	gun -7 -50 "Balefire Projector"
+	gun 7 -50 "Balefire Projector"
+	explode "medium explosion" 10
+	explode "small explosion" 10
+	explode "tiny explosion" 20
+ship 'A-60 Olisivant'
 	attributes
-		"cargo space" 610
-		"engine capacity" 145
-		"fuel capacity" 800
-		"heat dissipation" 1
-		"hull repair rate" 1.3
-		"jump drive" 1
-		"jump speed" 1
-		"outfit space" 1137
-		"turret mounts" 6
-		"weapon capacity" 527
-		automaton 1
 		category "Heavy Warship"
 		cost 31000000
-		drag 11.86
-		hull 12700
-		hyperdrive 1
-		mass 1080
-		ramscoop 12
 		shields 20600
-	explode "big explosion" 20
-	explode "huge explosion" 20
+		hull 12700
+		automaton 1
+		mass 1080
+		drag 11.86
+		"heat dissipation" 1
+		"fuel capacity" 800
+		"cargo space" 610
+		"outfit space" 1137
+		"weapon capacity" 527
+		"engine capacity" 145
+		"hull repair rate" 1.3
+		ramscoop 12
+		hyperdrive 1
+		"jump drive" 1
+		"jump speed" 1
 	outfits
 		"C-3 Nimbus Frame"
 		"Calypso Weapon" 5
@@ -82,43 +79,34 @@ ship "A-60 Olisivant"
 	turret 0 0
 	turret 0 0
 	turret 0 0
-ship "B-10 Warden"
+	explode "big explosion" 20
+	explode "huge explosion" 20
+ship 'B-10 Warden'
+	sprite "ship/warden"
+	thumbnail "thumbnail/warden"
 	attributes
-		"cargo space" 4
-		"engine capacity" 83
-		"fuel capacity" 500
-		"heat dissipation" 1
-		"hull repair rate" 1.8
-		"jump drive" 1
-		"jump speed" 1
-		"outfit space" 379
-		"weapon capacity" 128
-		automaton 1
 		category "Medium Warship"
 		cost 4000000
-		drag 8.9
-		hull 2750
-		hyperdrive 1
-		mass 245
 		shields 8150
+		hull 2750
+		automaton 1
+		mass 245
+		drag 8.9
+		"heat dissipation" 1
+		"fuel capacity" 500
+		"cargo space" 4
+		"outfit space" 379
+		"weapon capacity" 128
+		"engine capacity" 83
+		"hull repair rate" 1.8
+		hyperdrive 1
+		"jump drive" 1
+		"jump speed" 1
 		weapon
 			"blast radius" 50
-			"hit force" 100
-			"hull damage" 45
 			"shield damage" 120
-	engine -13 47
-	engine -15 61
-	engine -9 37
-	engine 13 47
-	engine 15 61
-	engine 9 37
-	explode "big explosion" 10
-	explode "medium explosion" 20
-	explode "small explosion" 20
-	gun -23 -69 "Balefire Projector"
-	gun 0 -43 "Balefire Lance"
-	gun 0 -69 "Balefire Projector"
-	gun 23 -69 "Balefire Projector"
+			"hull damage" 45
+			"hit force" 100
 	outfits
 		"B-1 Achilles Frame"
 		"Balefire Lance"
@@ -129,6 +117,17 @@ ship "B-10 Warden"
 		"Shield Modulator" 60
 		"Storage Cell" 28
 		"Thrust Module" 26
-	sprite ship/warden
-	thumbnail thumbnail/warden
+	engine -15 61
+	engine -13 47
+	engine -9 37
+	engine 9 37
+	engine 13 47
+	engine 15 61
+	gun -23 -69 "Balefire Projector"
+	gun 0 -43 "Balefire Lance"
+	gun 0 -69 "Balefire Projector"
+	gun 23 -69 "Balefire Projector"
 	turret 0 0
+	explode "big explosion" 10
+	explode "medium explosion" 20
+	explode "small explosion" 20
