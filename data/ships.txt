@@ -155,7 +155,7 @@ shipyard 'fallen'
 	"B-10 Warden"
 
 ------------
-# OVERRIDE #
+# SALES OVERRIDE #
 ------------
 
 shipyard "experimental"
