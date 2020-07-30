@@ -25,14 +25,14 @@ fleet "fallen"
 --------------------
 
 fleet "a-3 lexel"
-	government "Unknown "
+	government "arena"
 	personality
 		heroic
 	variant
 		"A-3 Lexel"
 
 fleet "b-10 warden"
-	government "Unknown "
+	government "arena"
 	personality
 		heroic
 	variant
