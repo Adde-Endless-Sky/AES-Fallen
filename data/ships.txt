@@ -2,7 +2,7 @@
 # INTERCEPTOR #
 ---------------
 
-ship 'A-3 Lexel'
+ship "A-3 Lexel"
 	sprite "ship/lexel"
 	thumbnail "thumbnail/lexel"
 	attributes
@@ -48,7 +48,7 @@ ship 'A-3 Lexel'
 ------------------
 # MEDIUM WARSHIP #
 ------------------
-ship 'B-10 Warden'
+ship "B-10 Warden"
 	sprite "ship/warden"
 	thumbnail "thumbnail/warden"
 	attributes
@@ -103,7 +103,7 @@ ship 'B-10 Warden'
 # HEAVY WARSHIP #
 -----------------
 
-ship 'A-60 Olisivant'
+ship "A-60 Olisivant"
 	attributes
 		category "Heavy Warship"
 		cost 31000000
@@ -149,7 +149,7 @@ ship 'A-60 Olisivant'
 # SALES #
 ---------
 
-shipyard 'fallen'
+shipyard "fallen"
 	"A-3 Lexel"
 	"A-60 Olisivant"
 	"B-10 Warden"

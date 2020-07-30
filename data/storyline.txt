@@ -1,7 +1,7 @@
 -----------------
 # FIRST CONTACT #
 -----------------
-mission 'fallen activation'
+mission "fallen activation"
 	invisible
 	landing
 	source
@@ -21,7 +21,7 @@ mission 'fallen activation'
 	on accept
 		event "fallen incursion"
 
-event 'fallen incursion'
+event "fallen incursion"
 	system "Alkaid"
 		add fleet "fallen" 24000
 	system "Aurigae"

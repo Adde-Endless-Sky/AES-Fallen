@@ -2,7 +2,7 @@
 # INHABITED #
 -------------
 
-system 'Aurigae'
+system "Aurigae"
 	pos -905 298
 	government "Uninhabited"
 	link "Serpentis"
@@ -80,7 +80,7 @@ planet "B-10 Warden"
 # UNINHABITED #
 ---------------
 
-system 'Serpentis'
+system "Serpentis"
 	pos -959 328
 	government "Uninhabited"
 	link "Aurigae"

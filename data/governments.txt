@@ -1,4 +1,4 @@
-government 'Fallen'
+government "Fallen"
 	swizzle 0
 	color .5 .4 .4
 	"player reputation" -1000

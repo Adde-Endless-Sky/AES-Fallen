@@ -2,7 +2,7 @@
 # FLEETS #
 ----------
 
-fleet 'fallen'
+fleet "fallen"
 	government Fallen
 	personality
 		coward
@@ -24,14 +24,14 @@ fleet 'fallen'
 # FLEETS AES-OMNIS #
 --------------------
 
-fleet 'a-3 lexel'
+fleet "a-3 lexel"
 	government "Unknown "
 	personality
 		heroic
 	variant
 		"A-3 Lexel"
 
-fleet 'b-10 warden'
+fleet "b-10 warden"
 	government "Unknown "
 	personality
 		heroic
