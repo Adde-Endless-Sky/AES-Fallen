@@ -1,6 +1,6 @@
---------
-# GUNS #
---------
+# --------
+#   GUNS
+# --------
 
 outfit "Balefire Projector"
 	category "Guns"
@@ -69,9 +69,9 @@ effect "balefire lance hit"
 	"random angle" 2
 	"random spin" 1
 
------------
-# TURRETS #
------------
+# -----------
+#   TURRETS
+# -----------
 
 outfit "Denial Turret"
 	category "Turrets"
@@ -160,9 +160,9 @@ effect "calypso weapon hit"
 	"velocity scale" .007
 	"random spin" 12
 
------------
-# SYSTEMS #
------------
+# -----------
+#   SYSTEMS
+# -----------
 
 outfit "Heat Sink"
 	category "Systems"
@@ -182,9 +182,9 @@ outfit "Shield Modulator"
 	"heat generation" .162
 	description `This unit pulls power from your ship to a single shield node in order to recharge your shields more quickly.`
 
----------
-# POWER #
----------
+# ---------
+#   POWER
+# ---------
 
 outfit "Energy Cube"
 	category "Power"
@@ -203,9 +203,9 @@ outfit "Storage Cell"
 	"energy capacity" 130
 	description `A small battery, effective when bundled up with others to manage to the considerable power requirements of [data corrupted] technology.`
 
------------
-# ENGINES #
------------
+# -----------
+#   ENGINES
+# -----------
 
 outfit "Thrust Module"
 	category "Engines"
@@ -264,9 +264,9 @@ outfit "C-3 Nimbus Frame"
 	"module capacity" 100
 	description `The pinnacle of spacial warping technology; the Nimbus can move even the most massive of ships. It supports braking through reversing the versatile thrust modules.`
 
----------
-# SALES #
----------
+# ---------
+#   SALES
+# ---------
 
 outfitter "fallen"
 	"Alpha Hermes Frame"
@@ -284,9 +284,9 @@ outfitter "fallen"
 	"Storage Cell"
 	"Thrust Module"
 
-------------
-# OVERRIDE #
-------------
+# ------------
+#   OVERRIDE
+# ------------
 
 outfitter "experimental"
 	"Alpha Hermes Frame"

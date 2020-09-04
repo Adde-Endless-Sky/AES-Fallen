@@ -1,6 +1,6 @@
-----------
-# FLEETS #
-----------
+# ----------
+#   FLEETS
+# ----------
 
 fleet "fallen"
 	government Fallen
@@ -20,9 +20,9 @@ fleet "fallen"
 		"A-3 Lexel" 11
 		"B-10 Warden" 2
 		
---------------------
-# FLEETS AES-OMNIS #
---------------------
+# --------------------
+#   FLEETS AES-OMNIS
+# --------------------
 
 fleet "a-3 lexel"
 	government "arena"

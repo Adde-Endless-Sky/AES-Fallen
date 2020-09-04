@@ -1,6 +1,6 @@
----------------
-# INTERCEPTOR #
----------------
+# ---------------
+#   INTERCEPTOR
+# ---------------
 
 ship "A-3 Lexel"
 	sprite "ship/lexel"
@@ -45,9 +45,9 @@ ship "A-3 Lexel"
 	explode "small explosion" 10
 	explode "tiny explosion" 20
 
-------------------
-# MEDIUM WARSHIP #
-------------------
+# ------------------
+#   MEDIUM WARSHIP
+# ------------------
 ship "B-10 Warden"
 	sprite "ship/warden"
 	thumbnail "thumbnail/warden"
@@ -99,9 +99,9 @@ ship "B-10 Warden"
 	explode "medium explosion" 20
 	explode "small explosion" 20
 
------------------
-# HEAVY WARSHIP #
------------------
+# -----------------
+#   HEAVY WARSHIP
+# -----------------
 
 ship "A-60 Olisivant"
 	attributes
@@ -145,18 +145,18 @@ ship "A-60 Olisivant"
 	explode "big explosion" 20
 	explode "huge explosion" 20
 
----------
-# SALES #
----------
+# ---------
+#   SALES
+# ---------
 
 shipyard "fallen"
 	"A-3 Lexel"
 	"A-60 Olisivant"
 	"B-10 Warden"
 
-------------
-# SALES OVERRIDE #
-------------
+# ------------------
+#   SALES OVERRIDE
+# ------------------
 
 shipyard "experimental"
 	"A-3 Lexel"
