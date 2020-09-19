@@ -281,9 +281,9 @@ outfitter "fallen"
 	"Storage Cell"
 	"Thrust Module"
 
-# ------------
-#   OVERRIDE
-# ------------
+# ----------------------------
+#   OVERRIDE SALES AES-OMNIS
+# ----------------------------
 
 outfitter "experimental"
 	"Alpha Hermes Frame"

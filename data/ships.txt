@@ -155,9 +155,9 @@ shipyard "fallen"
 	"A-60 Olisivant"
 	"B-10 Warden"
 
-# ------------------
-#   SALES OVERRIDE
-# ------------------
+# ----------------------------
+#   OVERRIDE SALES AES-OMNIS
+# ----------------------------
 
 shipyard "experimental"
 	"A-3 Lexel"
