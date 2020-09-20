@@ -25,7 +25,7 @@ outfit "Balefire Projector"
 		"hit force" 40
 		"shield damage" 60
 		"hull damage" 45
-	description `Instead of firing a coherent beam like it's larger cousin, this device wraps the energy from the balefire micro-generator in an envelope of ionized gas before propelling the package down a linear accellerator.`
+	description `Instead of firing a coherent beam like it's larger cousin, this device wraps the energy from the balefire micro-generator in an envelope of ionized gas before propelling the package down a linear accelerator.`
 
 effect "balefire projector hit"
 	sprite "sprite/balefire_projector_hit"
