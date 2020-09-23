@@ -220,6 +220,7 @@ outfit "Thrust Module"
 	"thrusting energy" .105
 	"thrusting heat" .229
 	"module capacity" -1
+	description `A module to fit in any of the various sized engine frames, it allows movement in any direction needed in order to propel or turn the ship. The sturdy frame of these modules allow thrust generated from one module to be passed through additional modules to provide a truly modular engine array.`
 
 outfit "Alpha Hermes Frame"
 	category "Engines"
