@@ -19,21 +19,3 @@ fleet "fallen"
 	variant
 		"A-3 Lexel" 11
 		"B-10 Warden" 2
-		
-# --------------------
-#   FLEETS AES-OMNIS
-# --------------------
-
-fleet "a-3 lexel"
-	government "arena"
-	personality
-		heroic
-	variant
-		"A-3 Lexel"
-
-fleet "b-10 warden"
-	government "arena"
-	personality
-		heroic
-	variant
-		"B-10 Warden"

@@ -146,20 +146,11 @@ ship "A-60 Olisivant"
 	explode "big explosion" 20
 	explode "huge explosion" 20
 
-# ---------
-#   SALES
-# ---------
+# -------------------
+#   SALES AES-OMNIS
+# -------------------
 
 shipyard "fallen"
-	"A-3 Lexel"
-	"A-60 Olisivant"
-	"B-10 Warden"
-
-# ----------------------------
-#   OVERRIDE SALES AES-OMNIS
-# ----------------------------
-
-shipyard "experimental"
 	"A-3 Lexel"
 	"A-60 Olisivant"
 	"B-10 Warden"
