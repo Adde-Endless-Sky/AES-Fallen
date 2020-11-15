@@ -209,7 +209,8 @@ outfit "Storage Cell"
 
 outfit "Thrust Module"
 	category "Engines"
-	cost 38500
+	cost 3850
+	thumbnail "outfit/thrust_module"
 	mass 2
 	"outfit space" -2
 	"engine capacity" -2
@@ -225,6 +226,7 @@ outfit "Thrust Module"
 outfit "Alpha Hermes Frame"
 	category "Engines"
 	cost 250000
+	thumbnail "outfit/hermes_frame"
 	mass 15
 	"outfit space" -15
 	"engine capacity" -15
@@ -232,7 +234,7 @@ outfit "Alpha Hermes Frame"
 	"flare sprite" "flare_sprite/alpha_hermes_frame"
 		"frame rate" 2
 	"flare sound" "skylance"
-	"module capacity" 35
+	"module capacity" 36
 	description `This is a small frame for [data corrupted] thrust modules. It supports braking through reversing the versatile thrust modules.`
 
 outfit "B-1 Achilles Frame"
