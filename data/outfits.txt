@@ -195,7 +195,7 @@ outfit "Energy Cube"
 	"heat generation" .4
 	description `This cube can be stacked with others like it to produce the power you will need to power your ships.`
 
-outfit "Storage Cell"
+outfit "Storage Module"
 	category "Power"
 	cost 1900
 	mass 1
@@ -281,5 +281,5 @@ outfitter "fallen"
 	"Heat Sink"
 	"Kinetic Splicer"
 	"Shield Modulator"
-	"Storage Cell"
+	"Storage Module"
 	"Thrust Module"

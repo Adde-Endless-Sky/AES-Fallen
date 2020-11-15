@@ -33,7 +33,7 @@ ship "A-3 Lexel"
 		"Energy Cube" 20
 		"Heat Sink" 5
 		"Shield Modulator" 13
-		"Storage Cell" 8
+		"Storage Module" 8
 		"Thrust Module" 8
 	engine -16 33 .4
 	engine 16 33 .4
@@ -83,7 +83,7 @@ ship "B-10 Warden"
 		"Energy Cube" 63
 		"Heat Sink" 16
 		"Shield Modulator" 60
-		"Storage Cell" 28
+		"Storage Module" 28
 		"Thrust Module" 26
 	engine -9 37
 	engine 9 37
@@ -132,7 +132,7 @@ ship "A-60 Olisivant"
 		"Fracture Engine"
 		"Heat Sink" 20
 		"Shield Modulator" 144
-		"Storage Cell" 96
+		"Storage Module" 96
 		"Thrust Module" 45
 	turret 0 0
 	turret 0 0
