@@ -218,3 +218,19 @@ event "spawn fallen gateway"
 		add object "fallen gateway"
 			sprite "planet/wisp"
 			distance 4000
+
+# -----------
+#   MAPPING
+# -----------
+
+mission "reveal omnis-fallen"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	on accept
+		event "reveal omnis-fallen"
+
+event "reveal omnis-fallen"
+	visit "Aurigae"
