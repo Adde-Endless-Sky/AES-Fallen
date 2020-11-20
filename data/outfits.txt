@@ -263,23 +263,3 @@ outfit "C-3 Nimbus Frame"
 	"flare sound" "skylance"
 	"module capacity" 100
 	description `The pinnacle of spacial warping technology; the Nimbus can move even the most massive of ships. It supports braking through reversing the versatile thrust modules.`
-
-# -------------------
-#   SALES AES-OMNIS
-# -------------------
-
-outfitter "fallen"
-	"Alpha Hermes Frame"
-	"B-1 Achilles Frame"
-	"Balefire Lance"
-	"Balefire Projector"
-	"C-3 Nimbus Frame"
-	"Calypso Weapon"
-	"Denial Turret"
-	"Energy Cube"
-	"Fracture Engine"
-	"Heat Sink"
-	"Kinetic Splicer"
-	"Shield Modulator"
-	"Storage Module"
-	"Thrust Module"

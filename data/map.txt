@@ -54,28 +54,6 @@ planet "Relic Station"
 	description `Mazes of endless halls and slated walls seem designed to disorient visitors. It would be easy to lose yourself here, both your person and your mind.`
 	bribe 0
 
-planet Fallen
-	landscape landscape/station6
-	description ``
-	spaceport ``
-	outfitter fallen
-	shipyard fallen
-	bribe 0
-
-planet "A-3 Lexel"
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "a-3 lexel"
-
-planet "B-10 Warden"
-	bribe 0
-	government "arena"
-	tribute 1
-		threshold 0
-		fleet "b-10 warden"
-
 # ---------------
 #   UNINHABITED
 # ---------------
@@ -121,11 +99,3 @@ system "Serpentis"
 			sprite "planet/rock7"
 			distance 504
 			period 68
-
-# ------------------------------
-#   PLANETS OVERRIDE AES-OMNIS
-# ------------------------------
-
-planet "Plugins"
-	add outfitter "fallen"
-	add shipyard "fallen"

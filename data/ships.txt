@@ -145,12 +145,3 @@ ship "A-60 Olisivant"
 	turret 0 0
 	explode "big explosion" 20
 	explode "huge explosion" 20
-
-# -------------------
-#   SALES AES-OMNIS
-# -------------------
-
-shipyard "fallen"
-	"A-3 Lexel"
-	"A-60 Olisivant"
-	"B-10 Warden"
