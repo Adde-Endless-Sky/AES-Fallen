@@ -233,4 +233,4 @@ mission "reveal omnis-fallen"
 		event "reveal omnis-fallen"
 
 event "reveal omnis-fallen"
-	visit "Aurigae"
+	visit "Fallen"
