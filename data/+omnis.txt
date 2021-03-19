@@ -234,3 +234,18 @@ mission "reveal omnis-fallen"
 
 event "reveal omnis-fallen"
 	visit "Fallen"
+
+mission "reveal fallen content"
+	invisible
+	landing
+	repeat
+	source
+		government "cheat"
+	to offer
+		has "omnis start"
+	on accept
+		event "reveal fallen content"
+
+event "reveal fallen content"
+	visit "Aurigae"
+	visit "Serpentis"
